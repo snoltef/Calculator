@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstLine{
+    display: flex;
+    align-items: center;
+    justify-content:baseline;
+}
+
+.containercalc{
+    display: flex;
+    height: 500px;
+    width: 300px;
+}
+
+.result{
+    display: inline-block;
+    height: 50px;
+    width: 180px;
+    border: 1px solid red;
+    margin: 5px;
+}
+
+.button{
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 25px;
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+    border-color: green;
+}
